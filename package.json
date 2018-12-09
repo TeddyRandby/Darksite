@@ -1,0 +1,32 @@
+{
+  "name": "darksite",
+  "version": "1.0.0",
+  "description": "Darkside's website",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "npm": "^6.4.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeddyRandby/Darksite.git"
+  },
+  "keywords": [
+    "Darkside"
+  ],
+  "author": "Darkside",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeddyRandby/Darksite/issues"
+  },
+  "homepage": "https://github.com/TeddyRandby/Darksite#readme"
+}
