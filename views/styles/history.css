@@ -1,0 +1,28 @@
+
+.main_grid {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 50% 20%;
+  grid-column-gap: 5%;
+  justify-content: center;
+}
+
+.quote {
+  text-align: center;
+}
+
+.grid_child {
+  padding: 5%;
+  background-color: #E3EDF0;
+}
+
+.bg {
+  background-image: url('../images/darksidecircle.jpg');
+}
+
+@media only screen and (max-width: 600px ) {
+  .main_grid {
+    display: flex;
+    flex-direction: column;
+  }
+}

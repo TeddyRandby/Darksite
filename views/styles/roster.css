@@ -1,0 +1,10 @@
+.main_grid{
+  padding-left: 10%;
+  display: grid;
+  grid-template-columns: 5% 85%;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+}

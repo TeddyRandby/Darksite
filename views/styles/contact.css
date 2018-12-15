@@ -1,0 +1,22 @@
+.bg {
+  background-image: url('../images/darsidehuddle.jpg');
+}
+
+.box {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 1.75em;
+}
+
+.icon {
+  text-align: center;
+}

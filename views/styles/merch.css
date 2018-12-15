@@ -1,0 +1,44 @@
+.main_grid {
+  margin: 5%;
+
+  display: flex;
+  justify-content: space-around;
+
+
+
+
+}
+
+.item_image {
+  text-align: center;
+  height: 203px;
+  border: 1px solid black;
+}
+
+.item_image img {
+  max-height: 200px;
+  width: 200px
+}
+
+.item_button {
+  border: none;
+  background-color: #E1E7E9;
+  transition-property: background-color, color;
+  transition-duration: .25s;
+  transition-timing-function: ease-in;
+  margin-top: 2%;
+
+}
+
+.item_button:hover {
+  background-color: #2D3E43;
+  color: #E1E7E9;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .main_grid {
+    display: flex;
+    flex-direction: column;
+  }
+}

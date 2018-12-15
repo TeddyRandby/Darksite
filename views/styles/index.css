@@ -1,0 +1,32 @@
+
+.main_grid {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.grid_child {
+  height: 300px;
+}
+
+#center {
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.jumbo_tron {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main_grid {
+}
+
+}
